@@ -21,7 +21,7 @@ weight = 5
 [[education.courses]]
   course = "BSc in Electrical Engineering"
   institution = "Universidad de Granada, Spain"
-  year = 2011
+  year = 2015
 
 +++
 
