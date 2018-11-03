@@ -10,17 +10,15 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "ROM Hacking",
-    "Programming languages",
-    "Design and Refactoring",
+    "C# / .NET Development",
+    "Reverse Engineering",
     "Game localization"
   ]
 
 # List your qualifications (such as academic degrees).
-
 [[education.courses]]
   course = "BSc in Electrical Engineering"
-  institution = "Universidad de Granada, Spain"
+  institution = "University of Granada, Spain"
   year = 2015
 
 +++

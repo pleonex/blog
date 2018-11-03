@@ -1,6 +1,8 @@
+# Configuration for pleonex website
 baseurl = "pleonex.github.io/"
 title = "Pleotonic Engineering"
-copyright = "&copy; 2017 Benito Palacios Sánchez"
+copyright = "&copy; 2018 Benito Palacios Sánchez"
+
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -8,15 +10,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 paginate = 10
 
-# Enable comments by entering your Disqus shortname
+# No Disqus (comment system) or Google Analytics.
 disqusShortname = ""
-
-# Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
 
-# Default language to use (if you setup multilingual support)
+# Only English :)
 defaultContentLanguage = "en"
+hasCJKLanguage = false
 defaultContentLanguageInSubdir = false
+
+# No git info needed
+enableGitInfo = false
 
 [outputs]
   home = [ "HTML", "CSS", "RSS" ]
@@ -24,32 +28,26 @@ defaultContentLanguageInSubdir = false
 
 # Configure BlackFriday Markdown rendering.
 [blackfriday]
-  hrefTargetBlank = true
-  fractions = true
-  smartypants = true
+  hrefTargetBlank = true  # Always external links in new tab!
+  fractions = true  # Convert fractions
+  smartypants = true  # Convert quotes, dashes, ...
 
 [params]
-  # Color theme.
-  #   Choose from `default`, `ocean`, `forest`, `coffee`, or `dark`.
-  color_theme = "default"
-
-  # Font style.
-  #   Choose from `default`, `classic`, or `playfair`.
-  font = "default"
-
-  # Your details.
-  name = "Benito Palacios"
+  # My details.
+  name = "Benito Palacios (pleonex)"
   role = "Software Engineer"
 
   # Organizations/Affiliations.
-  #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [
-    { name = "Real-Time Innovation", url = "http://www.rti.com" },
-    { name = "GradienWords", url = "http://gradienwords.es" }
+    { name = "Real-Time Innovation (RTI)", url = "http://www.rti.com" },
+    { name = "TraduSquare", url = "https://tradusquare.es/" }
   ]
 
+  # Use a custom photo
   gravatar = false
   avatar = "portrait.jpg"
+
+  # Contact info
   email = "benito356@gmail.com"
   address = "Granada, Spain"
   office_hours = ""
@@ -58,56 +56,67 @@ defaultContentLanguageInSubdir = false
   telegram = "pleonex"
   keybase = ""
 
-  # Discussion link (e.g. link to a forum, mailing list, or chat).
-  #   Uncomment line below to use.
+  # No discussion
   #   discussion = { name = "Discuss", url = "https://discourse.gohugo.io" }
 
-  # Diplay a logo in navigation bar rather than title (optional).
-  logo = ""
-
-  # Enable/disable map in Contact widget.
+  # No map thanks
   map = 0
   map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  latitude = ""
+  longitude = ""
   zoom = 15
 
-  # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
-  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  # Color theme.
+  color_theme = "dark"
+
+  # Font style.
+  font = "default"
+
+  # Info for search engines and social sharing
+  description = ""  # Take the 
+  sharing_img = "portrait.jpg"
+  twitter = "pleonex"
+
+  # I prefer the title instead of a logo
+  logo = ""
+
+  # Date and time format
   date_format = "Jan 2, 2006"
-  #   Examples: "3:04 pm" or "15:04"
   time_format = "3:04 PM"
 
   # Show estimated reading time for posts?
   reading_time = true
 
-  # Display comment count? Requires commenting to be enabled.
-  comment_count = true
+  # No comments enabled
+  comment_count = false
 
   # Display section pager for posts?
   section_pager = false
 
   # Enable global LaTeX math rendering?
-  #   If false, you can enable it locally on a per page basis.
   math = false
 
   # Highlight.js options
-  #   For the list of supported languages and styles, see:
-  #   https://cdnjs.com/libraries/highlight.js/
-  #
-  #   For more info on the highlighting options, see:
-  #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = ["cs"]
-  # highlight_style = "github"
+  highlight_languages = ["cs"]  # C#!
+  highlight_style = "github"
 
   # Enable native social sharing buttons?
   sharing = true
 
+  # Privacy pack
+  #   Show a cookie consent message to visitors
+  #   Anonymize IP in Google Analytics (if enabled)
+  privacy_pack = true
+
   # Link custom CSS and JS assets
-  #   (relative to /static/css and /static/js respectively)
   custom_css = []
   custom_js  = []
+
+  publication_types = [
+    'Uncategorized',  # 0
+    'Dissertation / Thesis',  # 1
+  ]
 
   # Configuration of talk pages.
   [params.talks]
@@ -116,8 +125,7 @@ defaultContentLanguageInSubdir = false
 
   # Configuration of publication pages.
   [params.publications]
-    # Date format (refer to Go's date format: http://fuckinggodateformat.com )
-    #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+    # Date format
     date_format = "January, 2006"
 
   # Configuration of project pages.
@@ -132,31 +140,40 @@ defaultContentLanguageInSubdir = false
     #   3 = MLA
     publication_format = 3
 
+    # Talk list format.
+    #   0 = Simple
+    #   1 = Detailed
+    #   2 = Stream
+    talk_format = 2
+
   # Social Networking
   [[params.social]]
     icon = "envelope"
-    icon_pack = "fa"
+    icon_pack = "fas"
     link = "mailto:benito356@gmail.com"
 
   [[params.social]]
     icon = "github"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//github.com/pleonex"
 
   [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/pleonex"
+    icon = "cv"
+    icon_pack = "ai"
+    link = "files/CV_BenitoPalacios.pdf"
 
   [[params.social]]
     icon = "linkedin"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//www.linkedin.com/in/pleonex"
 
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fab"
+    link = "//twitter.com/pleonex"
+
+
 # Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
 [params.menus]
   # Align the main menu to the right of the page? (true/false)
   align_right = true
@@ -182,9 +199,22 @@ defaultContentLanguageInSubdir = false
   weight = 4
 
 [[menu.main]]
+  name = "CV"
+  url = "files/CV_BenitoPalacios.pdf"
+  weight = 5
+
+[[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 5
+  weight = 6
+
+  # Search.
+  [params.search]
+    # Search provider:
+    #   0: No search engine
+    #   1: Built-in (Fuse)
+    #   2: Algolia (https://www.algolia.com)
+  engine = 0
 
 # Taxonomies.
 [taxonomies]
