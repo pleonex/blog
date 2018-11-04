@@ -28,12 +28,14 @@ date_format = "January 2006"
 
   * Lead developer of the [C# API for RTI Connector](https://github.com/rticommunity/rticonnextdds-connector-cs).
   * Lead developer of [RTI LogParser](https://github.com/rticommunity/rticonnextdds-logparser).
+  * C# General Language Knowledge Point of Contact.
   * Developer of a new build system: CMake, Gradle, Python and Jenkins.
     Support for multiple platforms and languages.
+  * OMG IDL to C# mapping specifiction.
 
   <br/>
-  I have also formed part of the support team for two years.
-  
+  For two years, I was part of the support team.
+
   * Answer technical questions.
   * Debug issues on-site and in remote video-calls.
   * Handle of critical escalted cases.

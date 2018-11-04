@@ -67,7 +67,7 @@ enableGitInfo = false
   zoom = 15
 
   # Color theme.
-  color_theme = "dark"
+  color_theme = "pleodark"
 
   # Font style.
   font = "default"
