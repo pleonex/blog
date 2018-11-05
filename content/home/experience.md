@@ -21,7 +21,7 @@ date_format = "January 2006"
   date_start = "2015-10-01"
   date_end = ""
   description = """
-  Got expertise in **RTI Connext DDDS**: a technology for the Industrial
+  Expertise in **RTI Connext DDDS**: a technology for the Industrial
   Internet of Things (IIoT).
 
   Develpment responsabilities include:
