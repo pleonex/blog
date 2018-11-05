@@ -1,5 +1,5 @@
 # Configuration for pleonex website
-baseurl = "pleonex.github.io/"
+baseurl = "/"
 title = "Pleotonic Engineering"
 copyright = "&copy; 2018 Benito Palacios Sánchez"
 
@@ -188,10 +188,11 @@ enableGitInfo = false
   url = "#talks"
   weight = 2
 
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
+# Hide until first post
+# [[menu.main]]
+#   name = "Posts"
+#   url = "#posts"
+#   weight = 3
 
 [[menu.main]]
   name = "Projects"

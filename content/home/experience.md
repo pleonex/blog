@@ -34,7 +34,7 @@ date_format = "January 2006"
   * OMG IDL to C# mapping specifiction.
 
   <br/>
-  For two years, I was part of the support team.
+  For two years, I worked with the support team.
 
   * Answer technical questions.
   * Debug issues on-site and in remote video-calls.
