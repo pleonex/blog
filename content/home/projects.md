@@ -17,7 +17,7 @@ folder = "project"
 # View.
 # Customize how projects are displayed.
 # Legend: 0 = list, 1 = cards.
-view = 1
+view = 0
 
 # Filter toolbar.
 
@@ -33,10 +33,14 @@ filter_default = 0
 
 [[filter]]
   name = "Reverse Engineering"
-  tag = "Reverse Engineering"
+  tag = "reverse-engineering"
 
 [[filter]]
   name = "Fan-translation"
-  tag = "Fan-translation"
+  tag = "fan-translation"
+
+[[filter]]
+  name = "Electronic"
+  tag = "electronic"
 
 +++
