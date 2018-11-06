@@ -10,13 +10,13 @@ summary = "Bachelor dissertation: _Data protection mechanisms in video games_."
 
 # Tags: can be used for filtering projects.
 tags = ["reverse-engineering"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
 +++
 
 # Data Protection Mechanisms in Video Games
+
+{{% alert note %}}
+Grade: 9.9 / 10
+{{% /alert %}}
 
 Electrical Engineering Bachelor dissertation.
 I researched different video games of Nintendo DS to find out how they were
