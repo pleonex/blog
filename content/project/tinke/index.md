@@ -71,6 +71,6 @@ Furthermore it works with plugins made in NET Framework languages
  * Edit a lot of image files from BMP files (NCLR, NCGR, NSCR, NCER), audio files from WAV (SWAV, SWAR, STRM) and fonts (NFTR).
  * Hexadecimal visor.
  * Change the content of the files and save the new ROM.
- * Multilanguage support.
+ * Translated to multiple languages.
 
 {{< gallery album="tinke" >}}

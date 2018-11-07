@@ -35,7 +35,7 @@ caption = "Menu"
 {{< figure src="logo.png" >}}
 
 As a member of the GradienWords fan-translation group, I worked in my free time
-as Localization Engineer to translate from Japaese to Spanish the game:
+as Localization Engineer to translate from Japanese to Spanish the game:
 _"Ni no kuni: Shikkoku no Madoshi"_ for Nintendo DS.
 In this altruistic project we did reverse engineering in the game to translate
 all the text and images files as well as edit font files and assembly code.

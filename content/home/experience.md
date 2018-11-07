@@ -24,21 +24,23 @@ date_format = "January 2006"
   Expertise in **RTI Connext DDDS**: a technology for the Industrial
   Internet of Things (IIoT).
 
-  Develpment responsabilities include:
+  Development responsibilities include:
 
   * Lead developer of the [C# API for RTI Connector](https://github.com/rticommunity/rticonnextdds-connector-cs).
   * Lead developer of [RTI LogParser](https://github.com/rticommunity/rticonnextdds-logparser).
   * C# General Language Knowledge Point of Contact.
   * Developer of a new build system: CMake, Gradle, Python and Jenkins.
     Support for multiple platforms and languages.
-  * OMG IDL to C# mapping specifiction.
+  * OMG IDL to C# mapping specification.
+  * A couple of customer on-site visits with the Professional Services Team
+    to provide design knowledge and support.
 
   <br/>
-  For two years, I worked with the support team.
+  For two years, I worked with the Support Team. My responsibilities were:
 
   * Answer technical questions.
   * Debug issues on-site and in remote video-calls.
-  * Handle of critical escalted cases.
+  * Handle of critical escalated cases.
   * Make and release patch releases.
   """
 
