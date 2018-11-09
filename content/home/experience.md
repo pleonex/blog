@@ -19,7 +19,7 @@ date_format = "January 2006"
   company_url = "https://www.rti.com/"
   location = "Granada, Spain"
   date_start = "2015-10-01"
-  date_end = ""
+  date_end = "2019-01-25"
   description = """
   Expertise in **RTI Connext DDDS**: a technology for the Industrial
   Internet of Things (IIoT).
