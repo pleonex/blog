@@ -52,7 +52,7 @@ enableGitInfo = false
   address = "Granada, Spain"
   office_hours = ""
   phone = ""
-  skype = ""
+  skype = "benito_356"
   telegram = "pleonex"
   keybase = ""
 
@@ -166,6 +166,11 @@ enableGitInfo = false
     icon = "linkedin"
     icon_pack = "fab"
     link = "//www.linkedin.com/in/pleonex"
+
+  [[params.social]]
+    icon = "skype"
+    icon_pack = "fab"
+    link = "//join.skype.com/invite/jK7w8zSNZFB6"
 
   [[params.social]]
     icon = "twitter"
