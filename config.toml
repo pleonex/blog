@@ -1,7 +1,7 @@
 # Configuration for pleonex website
 baseurl = "/"
 title = "Pleotonic Engineering"
-copyright = "&copy; 2018 Benito Palacios Sánchez"
+copyright = "&copy; 2019 Benito Palacios Sánchez"
 
 theme = "academic"
 enableEmoji = true
@@ -35,11 +35,11 @@ enableGitInfo = false
 [params]
   # My details.
   name = "Benito Palacios (pleonex)"
-  role = "Software Engineer"
+  role = "Software Developer"
 
   # Organizations/Affiliations.
   organizations = [
-    { name = "Real-Time Innovation (RTI)", url = "http://www.rti.com" },
+    { name = "Swiss Timing LTD", url = "https://www.swisstiming.com/" },
     { name = "TraduSquare", url = "https://tradusquare.es/" }
   ]
 
@@ -49,7 +49,7 @@ enableGitInfo = false
 
   # Contact info
   email = "benito356@gmail.com"
-  address = "Granada, Spain"
+  address = "Biel/Bienne, Switzerland"
   office_hours = ""
   phone = ""
   skype = "benito_356"

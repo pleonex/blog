@@ -14,6 +14,17 @@ date_format = "January 2006"
 
 # Experiences.
 [[experience]]
+  title = "Software Developer"
+  company = "Swiss Timing"
+  company_url = "https://www.swisstiming.com/"
+  location = "Corgémont, Switzerland"
+  date_start = "2019-02-01"
+  date_end = ""
+  description = """
+  Developing the latest framework technologies for sport events.
+  """
+
+[[experience]]
   title = "Software Engineer"
   company = "Real-Time Innovations (RTI)"
   company_url = "https://www.rti.com/"
