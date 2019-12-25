@@ -1,28 +1,31 @@
 +++
-# Recent Posts widget.
-# This widget displays recent posts from `content/post/`.
-widget = "posts"
-active = false  # Hide until first post
-date = "2016-04-20T00:00:00"
+widget = "pages"
+headless = true
+active = true
 
 title = "Recent Posts"
 subtitle = ""
 
-# Order that this section will appear in.
-weight = 40
+weight = 50
 
-# Filter posts by tag.
-# By default, show all recent posts.
-# Filtering example: `tags_include = ["hugo", "academic"]`
-tags_include = []
-tags_exclude = []
+[content]
+  # Page type to display. E.g. post, talk, or publication.
+  page_type = "post"
 
-# Number of posts to list.
-count = 5
+  # Choose how much pages you would like to display (0 = all pages)
+  count = 5
 
-# List format.
-#   0 = Simple
-#   1 = Detailed
-#   2 = Stream
-list_format = 2
+  # Choose how many pages you would like to offset by
+  offset = 0
+
+  # Page order. Descending (desc) or ascending (asc) date.
+  order = "desc"
+
+[design]
+  # Toggle between the various page layout types.
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   4 = Citation (publication only)
+  view = 2
 +++

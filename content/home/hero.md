@@ -1,25 +1,27 @@
 +++
 # Hero widget.
 widget = "hero"
+headless = true
 active = true
-date = 2017-10-15
 
 title = "Code and Game Analysis"
 
-# Order that this section will appear in.
-weight = 3
+weight = 10
 
-# Overlay a color or image (optional).
-# Deactivate an option by commenting out the line, prefixing it with `#`.
-[header]
-  overlay_color = "#666"  # An HTML color value.
-  overlay_img = "ninokuni_bg.png"
-  overlay_filter = 0.3  # Darken the image. Value in range 0-1.
+hero_media = ""
 
-# Call to action button (optional).
-# Activate the button by specifying a URL and button label below.
-# Deactivate by commenting out parameters, prefixing lines with `#`.
-[cta]
-  # url = ""
-  # label = ''
+[design.background]
+  # Background color.
+  color = "#666"
+
+  # Background image.
+  image = "ninokuni_bg.png"
+  image_darken = 0.3
+  image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
+  # image_position = "center"  # Options include `left`, `center` (default), or `right`.
+  #image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
+
+  text_color_light = true
+
+
 +++

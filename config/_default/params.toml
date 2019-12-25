@@ -1,0 +1,155 @@
+# SITE SETUP
+# Documentation: https://sourcethemes.com/academic/
+
+############################
+## Theme
+############################
+
+# Choose a theme.
+#   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
+#   Browse built-in themes in `themes/academic/data/themes/`
+#   Browse user installed themes in `data/themes/`
+theme = "PleoDark"
+
+# Enable users to switch between day and night mode?
+day_night = true
+
+# Override the theme's font set (optional).
+#   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
+#   Browse built-in font sets in `themes/academic/data/fonts/`
+#   Browse user installed font sets in `data/fonts/`
+font = ""
+
+# Choose a font size.
+# Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
+font_size = "M"
+
+############################
+## Basic Info
+############################
+
+site_type = "Person"
+description = ""
+logo = ""
+
+############################
+## Site Features
+############################
+
+highlight = true
+highlight_languages = ["cs"]
+highlight_style = "github"
+
+# Enable LaTeX math rendering? true/false
+#   If false, you can enable math on a per page basis as needed.
+math = true
+
+# Enable diagram rendering? true/false
+#   If false, you can enable diagrams on a per page basis as needed.
+diagram = true
+
+# Privacy pack
+#   Show a cookie consent message to visitors
+#   Anonymize IP in Google Analytics (if enabled)
+privacy_pack = true
+
+# Enable visitors to edit pages?
+edit_page = {repo_url = "", content_dir = "", repo_branch = "", editable = {docs = false, page = false, post = false}}
+
+email = "pleonex@protonmail.com"
+phone = ""
+address = {street = "", city = "Biel/Bienne", region = "", postcode = "2503", country = "Switzerland", country_code = "CH"}
+coordinates = {latitude = "", longitude = ""}
+directions = ""
+office_hours = []
+appointment_url = ""
+
+# Contact links
+#   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
+contact_links = [
+  {icon = "envelope", icon_pack = "fas", name = "Email", link = "mailto:pleonex@protonmail.com" },
+  {icon = "twitter", icon_pack = "fab", name = "Twitter", link = "https://twitter.com/pleonex"},
+  {icon = "skype", icon_pack = "fab", name = "Skype", link = "https://join.skype.com/invite/jK7w8zSNZFB6"},
+  {icon = "telegram", icon_pack = "fab", name = "Telegram", link = "https://telegram.me/@pleonex"},
+  ]
+
+############################
+## Social
+############################
+
+# Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
+sharing_image = "portrait.jpg"
+
+# Twitter username (without @). Used when a visitor shares your site on Twitter.
+twitter = "pleonex"
+
+############################
+## Regional Settings
+############################
+
+date_format = "Jan 2, 2006"
+time_format = "3:04 PM"
+
+address_format = "ch-CH"
+
+############################
+## Advanced
+############################
+
+# Get user avatars from Gravatar.com? (true/false)
+gravatar = false
+
+# Main menu alignment (l = left, c = center, r = right) and logo options.
+main_menu = {align = "l", show_logo = true}
+
+# Show estimated reading time for posts? (true/false)
+reading_time = true
+
+# Display next/previous section pager? (true/false)
+section_pager = false
+docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
+
+# Enable in-built social sharing buttons? (true/false)
+sharing = true
+
+# Link authors to their profile page? (true/false)
+link_authors = true
+
+plugins_js  = []
+
+# Available address formats.
+[address_formats]
+  ch-ch = {order = ['street', 'postcode', 'city', 'country'], delimiters = ['<br>', ' ', '<br>', '']}
+
+[publications]
+  date_format = "January 2006"
+
+  # Citation style ("apa" or "mla")
+  citation_style = "apa"
+
+[projects]
+  # Views for associated content.
+  #   1: List
+  #   2: Compact
+  #   3: Card
+  #   4: Citation (publications only)
+  post_view = 2
+  publication_view = 3
+  talk_view = 2
+
+[comments]
+  engine = 0 # Disabled
+
+  commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
+
+[search]
+  engine = 1 # Academic (built-in)
+
+[map]
+  engine = 0 # Disabled
+  api_key = ""
+  zoom = 15
+
+[marketing]
+  google_analytics = ""
+  google_tag_manager = ""

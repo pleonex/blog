@@ -1,22 +1,33 @@
 +++
-# Recent and Upcoming Talks widget.
-widget = "talks"
+widget = "pages"
+headless = true
 active = true
-date = "2016-04-20T00:00:00"
 
 title = "Recent & Upcoming Talks"
 subtitle = ""
 
-# Order that this section will appear in.
-weight = 30
+weight = 60
 
-# Number of talks to list.
-count = 10
+[content]
+  page_type = "talk"
+  count = 0
+  offset = 0
+  order = "desc"
 
-# List format.
-#   0 = Simple
-#   1 = Detailed
-#   2 = Stream
-list_format = 2
+  # Filter posts by a taxonomy term.
+  [content.filters]
+    tag = ""
+    category = ""
+    publication_type = ""
+    exclude_featured = false
+    exclude_past = false
+    exclude_future = false
 
+[design]
+  # Toggle between the various page layout types.
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   4 = Citation (publication only)
+  view = 2
 +++

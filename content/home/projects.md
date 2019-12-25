@@ -1,34 +1,29 @@
 +++
-# Projects widget.
-# This widget displays all projects from `content/project/`.
-widget = "projects"
+widget = "portfolio"
+headless = true
 active = true
-date = "2016-04-20T00:00:00"
 
 title = "Projects"
 subtitle = ""
 
-# Order that this section will appear in.
-weight = 50
+weight = 65
 
-# Folder content
-folder = "project"
+[content]
+  page_type = "project"
+  filter_default = 0
 
-# View.
-# Customize how projects are displayed.
-# Legend: 0 = list, 1 = cards.
-view = 1
 
-# Filter toolbar.
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "2"
 
-# Default filter index (e.g. 0 corresponds to the first `[[filter]]` instance below).
-filter_default = 0
+  # Toggle between the various page layout types.
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   5 = Showcase
+  view = 3
 
-# Add or remove as many filters (`[[filter]]` instances) as you like.
-# Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
-# To remove toolbar, delete/comment all instances of `[[filter]]` below.
-[[filter]]
-  name = "All"
-  tag = "*"
-
+  # For Showcase view, flip alternate rows?
+  flip_alt_rows = false
 +++

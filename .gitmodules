@@ -1,7 +1,7 @@
 [submodule "themes/academic"]
 	path = themes/academic
-	url = https://github.com/gcushen/hugo-academic
+	url = https://github.com/gcushen/hugo-academic.git
 [submodule "public"]
 	path = public
-	url = git@github.com:pleonex/pleonex.github.io.git
+	url = git@github.com:pleonex/pleonex.github.io
 	branch = master

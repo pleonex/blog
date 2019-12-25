@@ -1,16 +1,27 @@
-+++
-# Project title.
-title = "IV Tech Challenge"
+---
+title: "IV Tech Challenge"
+summary: "University competition simulating a start-up."
+authors: ['admin']
+tags: ['iiot', 'dds']
+categories: []
+date: 2018-11-04T02:01:00+01:00
 
-# Date this page was created.
-date = 2018-11-04T02:01:00+01:00
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
 
-# Project summary to display on homepage.
-summary = "University competition simulating a start-up."
+links:
+- name: Blog
+  url: http://blogs.rti.com/2015/01/20/from-college-students-to-entrepreneurs/
+  icon_pack: far
+  icon: newspaper
 
-# Tags: can be used for filtering projects.
-tags = []
-+++
+url_code: "https://github.com/Prometheus-ETSIIT/locaviewer"
+url_pdf: "https://github.com/Prometheus-ETSIIT/locaviewer/blob/master/Fase%20III%20-%20Memoria.pdf"
+url_slides: ""
+url_video: ""
+---
 
 {{< figure src="logo.png" >}}
 
@@ -37,9 +48,3 @@ that video. To send and receive the sensor data and video we use the distributed
 protocol DDS with the implementation of RTI Connext DDS.
 
 {{< figure src="dds.png" title="DDS design" >}}
-
-## More information
-
-* [English blog post](http://blogs.rti.com/2015/01/20/from-college-students-to-entrepreneurs/) about the experience.
-* [Spanish final report](https://github.com/Prometheus-ETSIIT/locaviewer/blob/master/Fase%20III%20-%20Memoria.pdf).
-* [Source code](https://github.com/Prometheus-ETSIIT/locaviewer).

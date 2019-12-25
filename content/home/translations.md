@@ -1,15 +1,13 @@
 +++
-# Custom widget.
 widget = "custom"
+headless = true
 active = true
-date = 2018-11-04T00:00:00
 
 # Commented out to have full width
 #title = ""
 #subtitle = ""
 
-# Order that this section will appear in.
-weight = 60
+weight = 90
 
 +++
 

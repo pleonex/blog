@@ -1,16 +1,26 @@
-+++
-# Project title.
-title = "Dissertation"
+---
+title: "Dissertation"
+summary: "Bachelor dissertation: _Data protection mechanisms in video games_."
+authors: ['admin']
+tags: ['reverse-engineering']
+categories: []
+date: 2019-12-25T13:53:12+01:00
 
-# Date this page was created.
-date = 2018-11-04T02:01:00+01:00
+# Optional external URL for project (replaces project detail page).
+external_link: ""
 
-# Project summary to display on homepage.
-summary = "Bachelor dissertation: _Data protection mechanisms in video games_."
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
 
-# Tags: can be used for filtering projects.
-tags = ["reverse-engineering"]
-+++
+url_code: "https://github.com/pleonex/AiroRom"
+url_pdf: "https://es.scribd.com/document/273318415/Mecanismos-de-proteccion-de-datos-en-videojuegos"
+url_slides: "https://es.slideshare.net/pleonex/mecanismos-de-proteccin-de-datos-en-videojuegos"
+url_video: ""
+
+slides: ""
+---
 
 # Data Protection Mechanisms in Video Games
 
@@ -23,12 +33,6 @@ I researched different video games of Nintendo DS to find out how they were
 protecting different sensitive content like text, video and audio to avoid
 modifications and/or access. I documented the different algorithms, their
 weakness and several recommendations to improve the protection.
-
-* Project code name: `AiroRom`.
-* [Report PDF](https://es.scribd.com/document/273318415/Mecanismos-de-proteccion-de-datos-en-videojuegos)
-* [Presentation Slides](https://es.slideshare.net/pleonex/mecanismos-de-proteccin-de-datos-en-videojuegos)
-* [Source code](https://github.com/pleonex/AiroRom)
-* [Wiki](https://github.com/pleonex/AiroRom/wiki) with temporal results.
 
 ### Abstract
 
