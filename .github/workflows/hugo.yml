@@ -8,7 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Clone repository
+      uses: actions/checkout@v2
+
+    - name: Checkout theme submodule
+      run: git submodule update --init themes/academic
 
     - name: Checkout production repo
       uses: actions/checkout@v2
