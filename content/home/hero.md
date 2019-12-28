@@ -16,12 +16,10 @@ hero_media = ""
 
   # Background image.
   image = "ninokuni_bg.png"
-  image_darken = 0.3
+  image_darken = 0.2
   image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
-  # image_position = "center"  # Options include `left`, `center` (default), or `right`.
-  #image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
+  image_position = "center"  # Options include `left`, `center` (default), or `right`.
+  image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
 
   text_color_light = true
-
-
 +++

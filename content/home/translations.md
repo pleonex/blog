@@ -1,23 +1,21 @@
 +++
-widget = "custom"
+widget = "blank"
 headless = true
 active = true
 
 # Commented out to have full width
-#title = ""
-#subtitle = ""
+title = "Game localization"
+subtitle = "Fan-translations"
 
 weight = 90
 
+[design]
+  columns = "2"
+
 +++
 
-# Game localization
-
-Fan-translations I helped as Localization Engineer
-
-
-Game title                           | Console | Languages  | Tech Leader | Research | Programmer
------------------------------------- | ------- | ---------- |:-----------:|:--------:|:----------:
+Game title | Console | Languages  | Tech Leader | Research | Programmer
+---------- | ------- | ---------- |:-----------:|:--------:|:----------:
 [Ni no kuni: El mago de las tinieblas](https://gradienwords.github.io/ninokuni/info.html) | NDS | Jap ➡️ Spa | ✔️ | ✔️ | ✔️
 [Xenosaga I: Der Wille zur Macht](https://gradienwords.github.io/xenosaga/info.html) | PS2 | Eng ➡️ Spa | ✔️ | ✔️ | ✔️
 [Los monstruos atacan el viernes](https://gradienwords.github.io/aofm/info.html) | 3DS | Eng ➡️ Spa | ✔️ | ✔️ | ✔️
@@ -27,8 +25,7 @@ Game title                           | Console | Languages  | Tech Leader | Rese
 Pokémon Conquest                     | NDS | Eng ➡️ Spa | ✔️ | ✔️ | ✔️
 Professor Layton London Life         | NDS | Eng ➡️ Spa | ✔️ | ✔️ | ✔️
 
-
-and many other projects where I did some random help like:
+and many other projects where I did some help like:
 
 * Persona 3
 * Shin Megami Tensei: Devil Survivor
