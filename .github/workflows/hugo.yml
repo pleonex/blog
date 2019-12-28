@@ -1,0 +1,30 @@
+name: Deployment
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Checkout production repo
+      uses: actions/checkout@v2
+      with:
+        repository: pleonex/pleonex.github.io
+        token: ${{ secrets.DEPLOY_TOKEN }}
+        path: deployment
+
+    - name: Install hugo
+      run: snap install hugo --channel=extended
+
+    - name: Build the site
+      run: hugo --gc --minify -b https://pleonex.dev -d deployment
+
+    - name: Push to deploy repo
+      run: |
+        cd deployment
+        git commit -a -m Update
+        git push origin master'
