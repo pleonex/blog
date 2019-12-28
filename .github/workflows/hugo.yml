@@ -27,7 +27,7 @@ jobs:
     - name: Build the site
       run: hugo --gc --minify -b https://pleonex.dev -d deployment
 
-      - name: Push to deploy repo
+    - name: Push to deploy repo
       run: |
         cd deployment
         git config user.email "benito356@gmail.com"
