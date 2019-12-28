@@ -22,7 +22,7 @@ jobs:
 
     - name: Push to deploy repo
       run: |
-        cd deployment
+        cd public
         git config user.email "benito356@gmail.com"
         git config user.name "GitHub action"
         git commit -a -m Update
