@@ -11,19 +11,26 @@ jobs:
     - name: Clone repository
       uses: actions/checkout@v2
 
-    - name: Checkout submodules
-      run: git submodule update --init --recursive
+    - name: Checkout theme submodule
+      run: git submodule update --init themes/academic
+
+    - name: Checkout production repo
+      uses: actions/checkout@v2
+      with:
+        repository: pleonex/pleonex.github.io
+        token: ${{ secrets.DEPLOY_TOKEN }}
+        path: deployment
 
     - name: Install hugo
       run: sudo snap install hugo --channel=extended
 
     - name: Build the site
-      run: hugo --gc --minify -b https://pleonex.dev
+      run: hugo --gc --minify -b https://pleonex.dev -d deployment
 
-    - name: Push to deploy repo
+      - name: Push to deploy repo
       run: |
-        cd public
+        cd deployment
         git config user.email "benito356@gmail.com"
         git config user.name "GitHub action"
         git commit -a -m Update
-        git push https://${{ github.actor }}:${{ secrets.DEPLOY_TOKEN }}@github.com/pleonex/pleonex.github.io.git master
+        git push origin master
