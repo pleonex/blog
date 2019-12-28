@@ -18,7 +18,7 @@ jobs:
         path: deployment
 
     - name: Install hugo
-      run: snap install hugo --channel=extended
+      run: sudo snap install hugo --channel=extended
 
     - name: Build the site
       run: hugo --gc --minify -b https://pleonex.dev -d deployment
