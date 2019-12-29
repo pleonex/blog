@@ -50,11 +50,11 @@ We ran a quick test that this is indeed the file and field that we need to chang
 
 ![Game shows 'Pleonet' instead of Koroku](edit1.png)
 
-Voila. As you can see I changed in the file the name `Koroku` with `Pleonet` and now the latter is showing as the character speaking.
+Voilà. As you can see I changed in the file the name `Koroku` with `Pleonet` and now the latter is showing as the character speaking.
 
 ## Matching the dialog with the name
 
-We know the file that contain the list of names. This is useful in case we want to change them. But we don't know who is speaking in the dialog yet. Let's check again the raw dialog text:
+We know the file that contains the list of names. This is useful in case we want to change them. But we don't know who is speaking in the dialog yet. Let's check again the raw dialog text:
 
 ```plain
 {char:0058}{speaker_color:2}{char_img:0}
