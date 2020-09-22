@@ -12,8 +12,8 @@ date_end: 2018-10-13T13:15:00+01:00
 all_day: false
 publishDate: 2018-11-05T02:00:00+01:00
 
-authors: ['admin']
-tags: ['reverse-engineering', 'course']
+authors: ["admin"]
+tags: ["reverse-engineering", "course"]
 projects: []
 
 image:
@@ -24,7 +24,7 @@ image:
 url_slides: "https://docs.google.com/presentation/d/1mgd5y1uWmudUwoYutSxvolh0BnwI73QT84NdSwitfmg/edit?usp=sharing"
 url_code:
 url_pdf:
-url_video: "https://www.youtube.com/watch?v=MkacpAcHZ0M"
+url_video: "https://www.youtube.com/watch?v=Fq8RD9ciOcA"
 ---
 
 Live streaming from Twitch requested by the TraduSquare community.

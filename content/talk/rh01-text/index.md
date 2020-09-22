@@ -12,8 +12,8 @@ date_end: 2018-06-09T13:00:00+01:00
 all_day: false
 publishDate: 2018-11-05T02:00:00+01:00
 
-authors: ['admin']
-tags: ['reverse-engineering', 'course']
+authors: ["admin"]
+tags: ["reverse-engineering", "course"]
 projects: []
 
 image:
@@ -24,7 +24,7 @@ image:
 url_slides: https://docs.google.com/presentation/d/1oWehnffXerLLpWwo7seV7DbJmLC4dFKiRkbw-7ZIS6A/edit?usp=sharing
 url_code:
 url_pdf:
-url_video: https://www.youtube.com/watch?v=SOtHFQ4kEBg
+url_video: https://www.youtube.com/watch?v=SvFewb1Vf2M
 ---
 
 Live streaming from the virtual reality platform [AltspaceVR](https://altvr.com/).
