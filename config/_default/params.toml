@@ -58,7 +58,7 @@ edit_page = {repo_url = "", content_dir = "", repo_branch = "", editable = {docs
 
 email = "pleonex@protonmail.com"
 phone = ""
-address = {street = "", city = "Biel/Bienne", region = "", postcode = "2503", country = "Switzerland", country_code = "CH"}
+address = {street = "", city = "Lutry", region = "", postcode = "1095", country = "Switzerland", country_code = "CH"}
 coordinates = {latitude = "", longitude = ""}
 directions = ""
 office_hours = []
